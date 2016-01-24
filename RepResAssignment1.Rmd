@@ -6,6 +6,8 @@ output: html_document
 ---
 ## <u> Before We Begin... </u>
 
+As stated in the assignment description, "this assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and includes the number of steps taken in 5 minute intervals each day".
+
 ### Loading the packages
 
 For this assignment we will need the "knitr", "dplyr", "lubridate" and "ggplot2" packages:
@@ -259,3 +261,4 @@ ggplot(interval_full, aes(x=interval, y=steps, color = weektype)) +
     geom_line() + facet_wrap(~weektype, ncol = 1, nrow = 2)
 ```
 
+From the two plots we can see that during weekdays this person seems to move more earlier in the day than during weekends, however, during the weekends the steps are spread more evenly throughout the day.
