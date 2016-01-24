@@ -19,7 +19,7 @@ library(dplyr)
 ```{r library(lubridate)}
 library(lubridate)
 ```
-```{r library(ggplot2)}}
+```{r library(ggplot2)}
 library(ggplot2)
 ```
 
