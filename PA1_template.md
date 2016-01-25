@@ -11,7 +11,7 @@ output:
 
 ### Loading the packages
 
-For this assignment we will need the "knitr", "dplyr", "lubridate" and "ggplot2" packages:
+For this assignment we will need the "knitr", "dplyr", "lubridate" and "ggplot2" packages
 
 ```{r library(knitr)}
 library(knitr)
